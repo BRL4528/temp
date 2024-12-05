@@ -271,9 +271,9 @@ export function Home() {
           const dataArray = event.data.split(' ');
 
           if (dataArray[0] === 'data') {
-            if (dataArray[3] === 'counting' && dataArray[4] && dataArray[5] !== 'Contagem em andamento') {
+            if (dataArray[3] === 'counting' && dataArray[4] && dataArray[5] !== t('home_textHeader_01')) {
               setCoutingId(dataArray[4])
-              setTextHeader('Contagem em andamento');
+              setTextHeader(t('home_textHeader_01'));
               setLoading(true);
             }
 
@@ -291,15 +291,15 @@ export function Home() {
           }
           if (dataArray[0] === 'station_started' && socket) {
             socket.current?.send('startCounting');
-            setTextHeader('Contagem em andamento');
+            setTextHeader(t('home_textHeader_01'));
             setLoading(true);
           }
           if (dataArray[0] === 'finalized' && socket) {
-            setTextHeader('Contagem Finalizada');
+            setTextHeader(t('home_textHeader_02'));
             setLoading(false);
           }
           if (dataArray[0] === 'program_finalized' && socket) {
-            setTextHeader('Contagem Finalizada');
+            setTextHeader(t('home_textHeader_02'));
             setLoading(false);
           }
         };
@@ -526,7 +526,7 @@ export function Home() {
         handleUpdateLocal(coutingId, dataScoreFormated);
       };
 
-      setTextHeader('Iniciar contagem');
+      setTextHeader(t('home_textHeader_03'));
       sesetFlagsData([]);
       setFps(0);
       setCount(0);
@@ -536,7 +536,7 @@ export function Home() {
       setAcumuled(0);
       toastNative({
         title: 'Contagem Salva',
-        description: 'contagem salva com sucesso!',
+        description: (t('toast_description_01'));,
       });
     } catch (err) {
       console.log('Erro handleSave', err);
@@ -559,9 +559,9 @@ export function Home() {
         handleUpdateLocal(coutingId, dataScores);
         toastNative({
           title: 'Contagem Salva',
-          description: 'Contagem salva localmente!',
+          description: (t('toast_description_02'));,
         });
-        setTextHeader('Iniciar contagem');
+        setTextHeader(t('home_textHeader_03'));
         sesetFlagsData([]);
         setFps(0);
         setCount(0);
@@ -573,7 +573,7 @@ export function Home() {
         console.log('error', er);
         toastNative({
           title: 'Error',
-          description: 'Problemas ao salvar a contagem!',
+          description: (t('toast_description_03'));,
         });
       }
 
@@ -613,17 +613,17 @@ export function Home() {
               .then(() => {
                 toastNative({
                   title: 'Contagem excluida',
-                  description: 'A contagem foi excluida',
+                  description: (t('toast_description_04'));,
                 });
               });
           } else {
             handleDeleteLocal(coutingId);
             toastNative({
               title: 'Contagem excluida',
-              description: 'A contagem foi exluida',
+              description: (t('toast_description_04'));,
             });
           }
-          setTextHeader('Iniciar contagem');
+          setTextHeader(t('home_textHeader_03'));
           sesetFlagsData([]);
           setFps(0);
           setCount(0);
@@ -635,7 +635,7 @@ export function Home() {
         }
       } else {
         handleDeleteLocal(coutingId);
-        setTextHeader('Iniciar contagem');
+        setTextHeader(t('home_textHeader_03'));
         sesetFlagsData([]);
         setFps(0);
         setCount(0);
@@ -646,14 +646,14 @@ export function Home() {
         setLoadingRoud(false);
         toastNative({
           title: 'Contagem excluida',
-          description: 'A contagem foi exluida',
+          description: (t('toast_description_04'));,
         });
       }
     } catch (err) {
       console.log('err', err);
       toastNative({
         title: 'Problemas ao excluir',
-        description: 'Erros ao exluir contagem',
+        description: (t('toast_description_05'));,
       });
     }
   }
@@ -721,22 +721,22 @@ export function Home() {
         setCountCurrent(0);
       }
     } catch (err) {
-      alert('Problemas ao acessar balança!');
+      alert(t('alert_error_balance_01'));
     }
   }
 
   const handleDeleteFlag = (flagSequence: number) => {
-    Alert.alert(
-      'Exluir Marcação',
-      'Realmente deseja exluir está marcação?',
+    Alert.alert(t(
+      'alert_markup_01')),
+      (t('alert_markup_02')),
       [
         {
-          text: 'Cancelar',
+          text: (t('alert_markup_03')),
           onPress: () => console.log('Cancel Pressed'),
           style: 'cancel',
         },
         {
-          text: 'Excluir',
+          text: (t('alert_markup_04')),
           onPress: () => handleDeleteFalgPassedAlert(flagSequence),
         },
       ],
