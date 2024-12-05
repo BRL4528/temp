@@ -1,0 +1,69 @@
+{
+  "welcome": "Bem-vindo",
+  "login": "Entrar",
+  "signup": "Cadastrar-se",
+  "logout": "Sair",
+  "profile": "Perfil",
+  "settings": "Configurações",
+  "language": "Linguagem",
+
+  "signIn_textLogin": "Realise seu login",
+  "signIn_textInput": "Informe o apelido da granja!",
+  "signIn_textButton": "Acessar",
+
+  "home_title": "O que você deseja fazer hoje?",
+  "home_subtitle": "Selecione entre as alternativasa baixo",
+  "home_functions": "Funções",
+  "home_tools": "Ferramentas",
+  "home_btn_counts": "Contagem",
+  "home_btn_historic": "Histórico de contagem",
+  "home_btn_cofig": "Central de configurações",
+  "home_btn_camera": "Câmera",
+  "home_btn_switch_off": "Desligar equipamento",
+
+  "home_alert_switch_off_title": "Desligar equipamento",
+  "home_alert_switch_off_body": "Realmente deseja desligar o equipamento?",
+  "home_alert_switch_off_btn_1": "Cancelar",
+  "home_alert_switch_off_btn_2": "Desligar",
+
+  "home_toast_link_api_title": "Equipamento",
+  "home_toast_link_api_description": "Conectado ao equipamento!",
+
+  "home_toast_link_cloud_title": "Nuvem",
+  "home_toast_link_cloud_description": "Equipamento com rede!",
+
+  "home_exit_app": "Sair da aplicação",
+
+  "config_title_01": "Configurações de Comunicação",
+  "config_input_01": "Rota HTTP WebSocket",
+
+  "config_title_02": "Configurações da analise de imagens",
+  "config_input_02": "Pacotes de .CFG",
+  "config_input_03": "Pacotes de .NAMES",
+  "config_input_04": "Pacotes de .WEIGHTS",
+
+  "config_title_03": "Configurações de saida",
+  "config_ckb_01": "Gerar video de saida",
+  "config_input_05": "Caminho do video de analise",
+  "config_input_06": "Caminho de montagem do video",
+
+  "config_title_04": "Configurações de marcações",
+  "config_ckb_02": "Permitir marcações automaticas",
+  "config_input_07": "Range da marcação automatica",
+
+  "config_title_05": "Gravações para treinamentos",
+  "config_btn_01": "Gravar",
+  "config_btn_02": "parar gravação",
+
+  "config_title_06": "Conexão WI-FI IOT",
+  "config_text_01": "Conectado em:",
+  "config_text_02": "Desconectar",
+  "config_text_03": "Dispositivo não esta conectado em uma rede wifi",
+  "config_input_08": "Nome da rede WI-FI",
+  "config_input_09": "Senha da rede WI-FI",
+
+  "config_alertError_01": "Dados invalidos!",
+  "config_alertSucces_02": "Conexão realizada!",
+
+  "config_btn_03": "Salvar"
+}
