@@ -67,5 +67,19 @@
 
   "config_btn_03": "Salvar",
 
-  "home_textAlert_01": "Adicione uma url valida nas configurações!"
+  "home_textAlert_01": "Adicione uma url valida nas configurações!",
+  "home_textHeader_01": "Contagem em andamento",
+  "home_textHeader_02": "Contagem Finalizada",
+  "home_textHeader_03": "Iniciar contagem",
+  "toast_description_01": "Contagem salva com sucesso!",
+  "toast_description_02": "Contagem salva localmente!",
+  "toast_description_03": "Problemas ao salvar a contagem!",
+  "toast_description_04": "A contagem foi excluida",
+  "toast_description_05": "Erros ao excluir contagem",
+  "alert_error_balance_01": "Problemas ao acessar balança!",
+  "alert_markup_01": "Excluir marcação",
+  "alert_markup_02": "Realmente deseja exluir está marcação?",
+  "alert_markup_03": "Cancelar",
+  "alert_markup_04": "Excluir",
+  "
 }
