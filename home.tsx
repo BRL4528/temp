@@ -50,6 +50,7 @@ import axios from 'axios';
 import { Camera } from '@screens/camera';
 import { ModalWeight } from './modalWeight';
 import { useDigitalOnline } from '@contexts/DigitalOnlineContext';
+import { useI18n } from '@contexts/i18n';
 
 type RouteParamsProps = {
   productor_id?: string;
@@ -141,6 +142,8 @@ export function Home() {
   const [flagOpen, setFlagOpen] = useState('');
 
   const socket = useRef<WebSocket | null>(null);
+
+  const { t } = useI18n();
 
   const sexRef = useRef(sex);
   const flatListRef = useRef(null);
@@ -256,7 +259,7 @@ export function Home() {
       const route = await AsyncStorage.getItem('@DataConfigRoute');
       if (route !== undefined) {
         if (route === '') {
-          alert('Adicione uma url valida nas configurações!');
+          alert(t('home_textAlert_01'));
           return;
         }
         socket.current = new WebSocket(`ws://${route}/`);
