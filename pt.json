@@ -65,5 +65,7 @@
   "config_alertError_01": "Dados invalidos!",
   "config_alertSucces_02": "Conexão realizada!",
 
-  "config_btn_03": "Salvar"
+  "config_btn_03": "Salvar",
+
+  "home_textAlert_01": "Adicione uma url valida nas configurações!"
 }
