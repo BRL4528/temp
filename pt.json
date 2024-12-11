@@ -75,12 +75,27 @@
   "toast_description_02": "Contagem salva localmente!",
   "toast_description_03": "Problemas ao salvar a contagem!",
   "toast_description_04": "A contagem foi excluida",
-  "toast_description_05": "Erros ao excluir contagem",
   "alert_error_balance_01": "Problemas ao acessar balança!",
   "alert_markup_01": "Excluir marcação",
   "alert_markup_02": "Realmente deseja exluir está marcação?",
   "alert_markup_03": "Cancelar",
   "alert_markup_04": "Excluir",
-  "titleName_01": "Contagem simples"
+  "titleName_01": "Contagem simples",
+  
+
+  "toast_error_01": "Problemas ao carregar as contagens"
+  "toast_error_02": "Erro"
+   "toast_description_05": "Erros ao excluir contagem",
+  "toast_descritption_06": "Contagem excluida",
+  "toast_description_07": "Problemas ao excluir",
+  "toast_description_08": "A contagem não pode ser excluida pois a quantidade é maior que zero",
+  "alert_markup_05": "Atenção!",
+  "alert_markup_06": "Realmente deseja exluir esta contagem?",
+  "header_title_01": "Histórico",
+  "header_subtitle_01":"Total de contagens:",
+  "title_not_history_01": "Nenhum registro foi encontrado",
+  
+  
+  
 
 }
