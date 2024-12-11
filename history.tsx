@@ -109,7 +109,7 @@ export function History() {
           setScores([]);
         }
       } catch (err) {
-        toastNative({ title: 'Erro', description: 'Problemas ao carregar as contagens' })
+        toastNative({ title: (t('toast_error_02')), description: (t('toast_error_01')) })
       }
     } finally {
       setLoadingScores(false)
@@ -144,22 +144,22 @@ export function History() {
           setScores(scoresFiltred);
 
           await axios.delete(`https://node.pigtek.com.br/scores?id=${id}`).then(() => {
-              toastNative({ title: 'Contagem excluida', description: 'A contagem foi excluida' })
+              toastNative({ title: (t('toast_descritption_06')), description: (t('toast_description_04')) })
             })
             getItemFunction()
           }
       } else {
-        toastNative({ title: 'Problemas ao excluir', description: 'A contagem não pode ser exluida pois a quantidade é maior que zero' })
+        toastNative({ title: (t('toast_description_07')), description: (t('toast_description_08')) })
       }
     } catch (err) {
       console.log(err)
-      toastNative({ title: 'Problemas ao excluir', description: 'Erros ao exluir contagem' })
+      toastNative({ title: (t('toast_description_07')), description: (t('toast_description_05')) })
 
     }
   }
 
   const handleButtonAlert = ({ id, quantity }: DataDelete) =>
-    Alert.alert('Atenção!', 'Realmente deseja exluir esta contagem?', [
+    Alert.alert((t('alert_markup_05')), (t('alert_markup_06')), [
       {
         text: 'Não',
         onPress: () => console.log('Cancel Pressed'),
@@ -209,15 +209,15 @@ export function History() {
       </ButtonReturn>
       </SectionHeader>
       <Container>
-        <Header title="Histórico" />
+        <Header title= (t('header_title_01')) />
 
-        <SubTitle>Total de contagens: {scores.length}</SubTitle>
+        <SubTitle>(t(header_subtitle_01)) {scores.length}</SubTitle>
         <View style={styles.container}>
           {loadingScores && (
             <ActivityIndicator color="gray" size="large" />
           )}
           {scores?.length === 0 && loadingScores === false ? (
-             <TitleNotHistory>Nenhum registro foi encontrado</TitleNotHistory>
+             <TitleNotHistory>(t('title_not_history_01'))</TitleNotHistory>
           ) : (
             <FlatList
             data={scores}
