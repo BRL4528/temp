@@ -1,1 +1,101 @@
+{
+  "welcome": "Bien-venido",
+  "login": "Entrar",
+  "signup": "Registrarse",
+  "logout": "Salír",
+  "profile": "Perfíl",
+  "settings": "Configuraciones",
+  "language": "Idioma",
 
+  "signIn_textLogin": "Realisar tú log-in",
+  "signIn_textInput": "Informar el apellido de la granja!",
+  "signIn_textButton": "Acceder",
+
+  "home_title": "Que desear hacer hoy?",
+  "home_subtitle": "Seleciona entre las opciones abajo",
+  "home_functions": "Funciones",
+  "home_tools": "Herramientas",
+  "home_btn_counts": "Contar",
+  "home_btn_historic": "Histórico de cuentas",
+  "home_btn_cofig": "Central de configuraciones",
+  "home_btn_camera": "Cámara",
+  "home_btn_switch_off": "Desconectar el equipamiento",
+
+  "home_alert_switch_off_title": "Desconectar el equipamiento",
+  "home_alert_switch_off_body": "Realmente deseas desconectar el equipamiento?",
+  "home_alert_switch_off_btn_1": "Cancelar",
+  "home_alert_switch_off_btn_2": "Desconectar",
+
+  "home_toast_link_api_title": "Equipamiento",
+  "home_toast_link_api_description": "Conectado al equipamiento!",
+
+  "home_toast_link_cloud_title": "Nuve",
+  "home_toast_link_cloud_description": "Equipamiento con la red!",
+
+  "home_exit_app": "Salir del app",
+
+  "config_title_01": "Configuraciones de Comunicación",
+  "config_input_01": "Ruta HTTP WebSocket",
+
+  "config_title_02": "Configuraciónes de analise de imágenes",
+  "config_input_02": "Paquetes de .CFG",
+  "config_input_03": "Paquetes de .NAMES",
+  "config_input_04": "Paquetes de .WEIGHTS",
+
+  "config_title_03": "Configuraciónes de salída",
+  "config_ckb_01": "Crear vídeo de salída",
+  "config_input_05": "Camino del vídeo de analisis",
+  "config_input_06": "Camino de creación del vídeo",
+
+  "config_title_04": "Configuraciones de marcas",
+  "config_ckb_02": "Permitir marcaciones automaticas",
+  "config_input_07": "Tiempo de marcación automatica",
+
+  "config_title_05": "Grabaciones para entreinamentos",
+  "config_btn_01": "Grabar",
+  "config_btn_02": "parar grabación",
+
+  "config_title_06": "Conexión WI-FI IOT",
+  "config_text_01": "Conectado en:",
+  "config_text_02": "Desconectar",
+  "config_text_03": "Dispositivo no esta conectado en una red wifi",
+  "config_input_08": "Nombre de la red WI-FI",
+  "config_input_09": "Contraseña de la red WI-FI",
+
+  "config_alertError_01": "Informaciones invalidas!",
+  "config_alertSucces_02": "Conexión sucedida!",
+
+  "config_btn_03": "Salvar",
+
+  "home_textAlert_01": "Adiciona una url valida en las configuraciónes!",
+  "home_textHeader_01": "Conteo en progresso",
+  "home_textHeader_02": "Conteo Finalizado",
+  "home_textHeader_03": "Iniciar conteo",
+  "toast_description_01": "Conteo salvo!",
+  "toast_description_02": "Conteo salvo localmente!",
+  "toast_description_03": "Problemas al salvar el conteo!",
+  "toast_description_04": "El conteo fue borrado",
+  "alert_error_balance_01": "Problemas al aceder balanca!",
+  "alert_markup_01": "Borrar marcación",
+  "alert_markup_02": "Realmente deseas borrar esta marcación?",
+  "alert_markup_03": "Cancelar",
+  "alert_markup_04": "Borrar",
+  "titleName_01": "Conteo simple",
+  
+
+  "toast_error_01": "Problemas al cargar los conteos"
+  "toast_error_02": "Error"
+   "toast_description_05": "Error al borrar conteo",
+  "toast_descritption_06": "Conteo borrado",
+  "toast_description_07": "Problemas al borrar",
+  "toast_description_08": "El conteo no puede ser borrado por que la cantidad es mayor que cero",
+  "alert_markup_05": "Atención!",
+  "alert_markup_06": "Realmente deseas borrar este conteo?",
+  "header_title_01": "História",
+  "header_subtitle_01":"Total de conteos:",
+  "title_not_history_01": "Ningún registro fue encontrado",
+  
+  
+  
+
+}
