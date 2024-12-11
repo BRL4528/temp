@@ -1,0 +1,70 @@
+{
+  "welcome": "Welcome",
+  "login": "Login",
+  "signup": "Sign Up",
+  "logout": "Logout",
+  "profile": "Profile",
+  "settings": "Settings",
+  "language": "Language",
+
+  "signIn_textLogin": "Log in to your account",
+  "signIn_textInput": "Enter the farm nickname!",
+  "signIn_textButton": "Access",
+
+  "home_title": "What do you want to do today?",
+  "home_subtitle": "Select from the options below",
+  "home_functions": "Functions",
+  "home_tools": "Tools",
+  "home_btn_counts": "Counting",
+  "home_btn_historic": "Counting History",
+  "home_btn_cofig": "Settings Center",
+  "home_btn_camera": "Camera",
+  "home_btn_switch_off": "Turn off equipment",
+
+  "home_alert_switch_off_title": "Turn Off Equipment",
+  "home_alert_switch_off_body": "Do you really want to turn off the equipment?",
+  "home_alert_switch_off_btn_1": "Cancel",
+  "home_alert_switch_off_btn_2": "Turn Off",
+
+  "home_toast_link_api_title": "Equipment",
+  "home_toast_link_api_description": "Connected to the equipment!",
+
+  "home_toast_link_cloud_title": "Cloud",
+  "home_toast_link_cloud_description": "Equipment with network!",
+
+  "home_exit_app": "Exit Application",
+
+  "config_title_01": "Communication Settings",
+  "config_input_01": "HTTP WebSocket Route",
+
+  "config_title_02": "Image Analysis Settings",
+  "config_input_02": ".CFG Packages",
+  "config_input_03": ".NAMES Packages",
+  "config_input_04": ".WEIGHTS Packages",
+
+  "config_title_03": "Output Settings",
+  "config_ckb_01": "Generate Output Video",
+  "config_input_05": "Analysis Video Path",
+  "config_input_06": "Video Assembly Path",
+
+  "config_title_04": "Annotations Settings",
+  "config_ckb_02": "Enable Automatic Annotations",
+  "config_input_07": "Automatic Annotation Range",
+
+  "config_title_05": "Training Recordings",
+  "config_btn_01": "Record",
+  "config_btn_02": "Stop Recording",
+
+  "config_title_06": "WI-FI IoT Connection",
+  "config_text_01": "Connected to:",
+  "config_text_02": "Disconnect",
+  "config_text_03": "Device is not connected to a Wi-Fi network",
+  "config_input_08": "WI-FI Network Name",
+  "config_input_09": "WI-FI Network Password",
+
+  "config_alertError_01": "Invalid data!",
+  "config_alertSucces_02": "Connection successful!",
+
+
+  "config_btn_03": "Save"
+}
