@@ -841,7 +841,7 @@ export function Home() {
         )}
         {type === 'simple_count' && (
           <TitleNameProd>
-            Contagem: {loteFormated} - {name !== '' ? name : 'Contagem simples'}
+            Contagem: {loteFormated} - {name !== '' ? name : 'titleName_01'}
           </TitleNameProd>
         )}
         <Header title={textHeader} />
@@ -856,7 +856,7 @@ export function Home() {
         </SectionFlag>
       </ContainerFlag>
 
-      {loading && textHeader === 'Contagem em andamento' ? (
+      {loading && textHeader === (t('home_textHeader_01'))? (
         <SectionPlus>
           <ButtonTrasparent onPress={() => handleSetQuantityCount('remove')}>
             <Ionicons name="remove" size={iconSize} color="white" />
@@ -873,7 +873,7 @@ export function Home() {
 
 
       <Section>
-        {loading && textHeader === 'Contagem em andamento' ? (
+        {loading && textHeader === (t('home_textHeader_01')) ? (
           <>
             <ButtonYellow onPress={handleCreateFlag}>
               <Ionicons name="flag" size={iconSize} color="white" />
@@ -896,7 +896,7 @@ export function Home() {
         ) : (
           ''
         )}
-        {textHeader === 'Iniciar contagem' ? (
+        {textHeader === (t('home_textHeader_03')) ? (
           <Button
             color="green"
             onPress={handleRoudProgram}
@@ -911,7 +911,7 @@ export function Home() {
         ) : (
           ''
         )}
-        {textHeader === 'Contagem Finalizada' ? (
+        {textHeader === (t('home_textHeader_02')) ? (
           <>
             <ButtonRed
               onPress={handleDeleteCount}
