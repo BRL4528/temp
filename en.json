@@ -65,6 +65,37 @@
   "config_alertError_01": "Invalid data!",
   "config_alertSucces_02": "Connection successful!",
 
+  "config_btn_03": "Save",
 
-  "config_btn_03": "Save"
+  "home_textAlert_01": "Add a valid url in the configurations",
+  "home_textHeader_01": "Counting in progress",
+  "home_textHeader_02": "Counting Finished",
+  "home_textHeader_03": "Start Counting",
+  "toast_description_01": "Counting saved with success!",
+  "toast_description_02": "Count saved locally!",
+  "toast_description_03": "Problems with saving the count!",
+  "toast_description_04": "The count was deleted",
+  "alert_error_balance_01": "Problems acessing the scale!",
+  "alert_markup_01": "Delete marking",
+  "alert_markup_02": "Do you really want to delete this marking",
+  "alert_markup_03": "Cancel",
+  "alert_markup_04": "Delete",
+  "titleName_01": "Simple counting",
+  
+
+  "toast_error_01": "Problems loading the countings"
+  "toast_error_02": "Error"
+   "toast_description_05": "Errors with deleting the counting",
+  "toast_descritption_06": "Counting deleted",
+  "toast_description_07": "Problems with deleting",
+  "toast_description_08": "The counting can't be deleted because the quantity is higher than zero",
+  "alert_markup_05": "Attention!",
+  "alert_markup_06": "Do you really wan't to delete this counting?",
+  "header_title_01": "History",
+  "header_subtitle_01":"Total counts:",
+  "title_not_history_01": "No registration was found",
+
+  
+
+
 }
