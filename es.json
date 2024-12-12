@@ -4,7 +4,7 @@
   "signup": "Registrarse",
   "logout": "Salír",
   "profile": "Perfíl",
-  "settings": "Configuraciones",
+  "settings": "Ajustes",
   "language": "Idioma",
 
   "signIn_textLogin": "Realisar tú log-in",
@@ -17,7 +17,7 @@
   "home_tools": "Herramientas",
   "home_btn_counts": "Conteos",
   "home_btn_historic": "Histórico de conteos",
-  "home_btn_cofig": "Central de configuraciones",
+  "home_btn_cofig": "Central de ajustes",
   "home_btn_camera": "Cámara",
   "home_btn_switch_off": "Desconectar el equipamiento",
 
@@ -34,20 +34,20 @@
 
   "home_exit_app": "Salir del app",
 
-  "config_title_01": "Configuraciones de Comunicación",
+  "config_title_01": "Ajustes de Comunicación",
   "config_input_01": "Ruta HTTP WebSocket",
 
-  "config_title_02": "Configuraciónes de analise de imágenes",
+  "config_title_02": "Ajustes de análisis de imágenes",
   "config_input_02": "Paquetes de .CFG",
   "config_input_03": "Paquetes de .NAMES",
   "config_input_04": "Paquetes de .WEIGHTS",
 
-  "config_title_03": "Configuraciónes de salída",
+  "config_title_03": "Ajustes de salída",
   "config_ckb_01": "Crear vídeo de salída",
   "config_input_05": "Camino del vídeo de analisis",
   "config_input_06": "Camino de creación del vídeo",
 
-  "config_title_04": "Configuraciones de marcas",
+  "config_title_04": "Ajustes de marcas",
   "config_ckb_02": "Permitir marcaciones automaticas",
   "config_input_07": "Tiempo de marcación automatica",
 
@@ -67,7 +67,7 @@
 
   "config_btn_03": "Salvar",
 
-  "home_textAlert_01": "Adiciona una url valida en las configuraciónes!",
+  "home_textAlert_01": "Adiciona una url valida en los ajustes!",
   "home_textHeader_01": "Conteo en progresso",
   "home_textHeader_02": "Conteo Finalizado",
   "home_textHeader_03": "Iniciar conteo",
