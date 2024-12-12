@@ -846,9 +846,9 @@ export function Home() {
         )}
         <Header title={textHeader} />
         <TextCount>{countCurrent}</TextCount>
-        <TextFps>Acomulado: {acumuled}!</TextFps>
+        <TextFps>(t('text_fps_01')) {acumuled}!</TextFps>
         {/* <TextFps>FPS: {fps}!</TextFps> */}
-        <TextFps>resumo: {acumuled} (♂ {maleQuantity} / ♀ {femaleQuantity})!</TextFps>
+        <TextFps>(t('text_fps_02')) {acumuled} (♂ {maleQuantity} / ♀ {femaleQuantity})!</TextFps>
       </Container>
       <ContainerFlag>
         <SectionFlag>
