@@ -315,7 +315,7 @@ export function Home() {
   };
 
   const handleVerifyLot = useCallback(async () => {
-    if (textHeader === 'Iniciar contagem') {
+    if (textHeader === (t('home_textHeader_03')) {
       const scores = await AsyncStorage.getItem('scores');
       const scoresArray: Scores = scores ? JSON.parse(scores) : {scores: []};
       if (scoresArray.scores.length > 0) {
